@@ -8,7 +8,7 @@ function ProductCard({ product, onDeleteProduct, onUpdatePrice }) {
   }
 
   function handleDelete() {
-    fetch(`https://json-server-backend-ehmk.onrender.com/products/${product.id}`, {
+    fetch(`https://json-server-backend-3.onrender.com/products${product.id}`, {
       method: "DELETE",
     })
       .then(() => onDeleteProduct(product.id))
@@ -17,7 +17,7 @@ function ProductCard({ product, onDeleteProduct, onUpdatePrice }) {
 
   function handlePriceUpdate(e) {
     const newPrice = parseFloat(e.target.value);
-    fetch(`http://localhost:5000/products/${product.id}`, {
+    fetch(`https://json-server-backend-3.onrender.com/products${product.id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",

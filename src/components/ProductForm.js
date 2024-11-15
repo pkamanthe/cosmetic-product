@@ -9,7 +9,7 @@ function ProductForm({ onAddProduct }) {
     e.preventDefault();
     const newProduct = { name, image, price };
 
-    fetch("https://json-server-backend-ehmk.onrender.com/products", {
+    fetch("https://json-server-backend-3.onrender.com/products", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
