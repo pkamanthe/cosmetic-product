@@ -1,0 +1,41 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "beauty blender",
+      "image": "./images/beauty blender.jpg",
+      "price": 17.09
+    },
+    {
+      "id": "2",
+      "name": "eye lashes",
+      "image": "./images/eye lashes.jpg",
+      "price": 5.99
+    },
+    {
+      "id": "3",
+      "name": "make-up brushes",
+      "image": "./images/make-up brushes.jpg",
+      "price": 12.11,
+      "inStock": true
+    },
+    {
+      "id": "4",
+      "name": "Mascara",
+      "image": "./images/Mascara.jpg",
+      "price": 10.37
+    },
+    {
+      "id": "5",
+      "name": "Matte-lipstick",
+      "image": "./images/Matte-lipstick.jpg",
+      "price": 25.99
+    },
+    {
+      "id": "6",
+      "name": "setting powder",
+      "image": "./images/setting powder.jpg",
+      "price": 30
+    }
+  ]
+}
